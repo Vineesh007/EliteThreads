@@ -1,0 +1,130 @@
+/* .navbar{
+    background-color:#282c31;
+    z-index: 1;
+}
+
+.container-fluid {
+    margin-top: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+ justify-content: right;
+ 
+}
+
+.navbar a{
+    color: white;
+} */
+/* 
+.navbar .cart{
+    display: none;
+} */
+
+/* Modern Glassmorphism Navbar */
+.glass-navbar {
+    background: rgba(40, 44, 49, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px;
+}
+
+/* Container for layout */
+.nav-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    height: 60px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+    color: #ffcc00;
+}
+
+/* Right Section */
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Language Selector */
+.language-selector {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Cart Icon */
+.cart-icon {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cart-icon span {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+
+.cart-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Login & Logout Buttons */
+.login-btn, .logout-btn {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-btn:hover, .logout-btn:hover {
+    background: linear-gradient(to right, #dd2476, #ff512f);
+    transform: scale(1.05);
+}

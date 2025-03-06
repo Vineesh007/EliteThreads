@@ -1,0 +1,205 @@
+[
+  
+    {
+      "_id": { "$oid": "6799b019b79b6988a307e430" },
+      "name": "Nike Dri-FIT Running Shirt, Black",
+      "price": "25.50",
+      "description": "Lightweight, moisture-wicking running shirt with Nike Dri-FIT technology.",
+      "ratings": "4.7",
+      "images": [
+        { "image": "/images/products/shirt-nike1.jpg", "_id": { "$oid": "6799b019b79b6988a307e431" } }
+      ],
+      "category": "Shirts",
+      "seller": "Nike",
+      "stock": "10",
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6799b019b79b6988a307e432" },
+      "name": "Under Armour Compression Shirt, Grey",
+      "price": "30.00",
+      "description": "Compression-fit shirt for enhanced performance and muscle support.",
+      "ratings": "4.5",
+      "images": [
+        { "image": "/images/products/shirt-ua1.jpg", "_id": { "$oid": "6799b019b79b6988a307e433" } }
+      ],
+      "category": "Shirts",
+      "seller": "Under Armour",
+      "stock": "12",
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6799b019b79b6988a307e434" },
+      "name": "Calvin Klein Slim Fit Chinos, Beige",
+      "price": "28.90",
+      "description": "Stylish slim-fit chinos made from stretch cotton for all-day comfort.",
+      "ratings": "4.6",
+      "images": [
+        { "image": "/images/products/pants-ck1.jpg", "_id": { "$oid": "6799b019b79b6988a307e435" } }
+      ],
+      "category": "Pants",
+      "seller": "Calvin Klein",
+      "stock": "9",
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6799b019b79b6988a307e436" },
+      "name": "Puma Essential Track Pants, Navy Blue",
+      "price": "22.99",
+      "description": "Soft cotton-blend track pants with a tapered fit and elastic waistband.",
+      "ratings": "4.7",
+      "images": [
+        { "image": "/images/products/trackpants-puma1.jpg", "_id": { "$oid": "6799b019b79b6988a307e437" } }
+      ],
+      "category": "Pants",
+      "seller": "Puma",
+      "stock": "15",
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6799b019b79b6988a307e438" },
+      "name": "Adidas Three-Stripes Tracksuit, Red",
+      "price": "55.00",
+      "description": "Full tracksuit with Adidas' signature three-stripes design, includes jacket and pants.",
+      "ratings": "4.8",
+      "images": [
+        { "image": "/images/products/tracksuit-adidas1.jpg", "_id": { "$oid": "6799b019b79b6988a307e439" } }
+      ],
+      "category": "Tracksuits",
+      "seller": "Adidas",
+      "stock": "7",
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6799b019b79b6988a307e440" },
+      "name": "Reebok Classic Tracksuit, Grey",
+      "price": "48.75",
+      "description": "Classic Reebok tracksuit with a relaxed fit, ideal for training or lounging.",
+      "ratings": "4.6",
+      "images": [
+        { "image": "/images/products/tracksuit-reebok1.jpg", "_id": { "$oid": "6799b019b79b6988a307e441" } }
+      ],
+      "category": "Tracksuits",
+      "seller": "Reebok",
+      "stock": "5",
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6799b019b79b6988a307e442" },
+      "name": "Columbia Winter Jacket, Black",
+      "price": "85.00",
+      "description": "Insulated winter jacket with water-resistant fabric and adjustable hood.",
+      "ratings": "4.9",
+      "images": [
+        { "image": "/images/products/jacket-columbia1.jpg", "_id": { "$oid": "6799b019b79b6988a307e443" } }
+      ],
+      "category": "Jackets",
+      "seller": "Columbia",
+      "stock": "6",
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6799b019b79b6988a307e444" },
+      "name": "North Face Windbreaker, Blue",
+      "price": "70.00",
+      "description": "Lightweight windbreaker with breathable mesh lining and water-resistant shell.",
+      "ratings": "4.7",
+      "images": [
+        { "image": "/images/products/jacket-northface1.jpg", "_id": { "$oid": "6799b019b79b6988a307e445" } }
+      ],
+      "category": "Jackets",
+      "seller": "The North Face",
+      "stock": "8",
+      "__v": 0
+    },
+  {
+    "_id": {
+      "$oid": "6799b019b79b6988a307e421"
+    },
+    "name": "Ralph Lauren Polo Shirt, Navy Blue",
+    "price": "7000.00",
+    "description": "Classic fit polo shirt with Ralph Lauren embroidered logo, 100% cotton.",
+    "ratings": "4.7",
+    "images": [
+      {
+        "image": "/images/products/shirt1.jpg",
+        "_id": {
+          "$oid": "6799b019b79b6988a307e422"
+        }
+      },
+      {
+        "image": "/images/products/shirt2.jpg",
+        "_id": {
+          "$oid": "6799b019b79b6988a307e423"
+        }
+      }
+    ],
+    "category": "Shirts",
+    "seller": "Ralph Lauren",
+    "stock": "20",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6799b019b79b6988a307e424"
+    },
+    "name": "Tommy Hilfiger, White Shirt",
+    "price": "6000.00",
+    "description": "Slim fit white shirt with signature Tommy Hilfiger logo on chest pocket.",
+    "ratings": "4.5",
+    "images": [
+      {
+        "image": "/images/products/shirt3.jpg",
+        "_id": {
+          "$oid": "6799b019b79b6988a307e425"
+        }
+      }
+    ],
+    "category": "Shirts",
+    "seller": "Tommy Hilfiger",
+    "stock": "15",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6799b019b79b6988a307e426"
+    },
+    "name": "Levi's 501 Original Jeans, Blue",
+    "price": "5000.00",
+    "description": "Levi's classic 501 jeans, straight-leg fit, made from durable denim.",
+    "ratings": "4.8",
+    "images": [
+      {
+        "image": "/images/products/pants1.jpg",
+        "_id": {
+          "$oid": "6799b019b79b6988a307e427"
+        }
+      }
+    ],
+    "category": "Pants",
+    "seller": "Levi's",
+    "stock": "25",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6799b019b79b6988a307e428"
+    },
+    "name": "Adidas Track Pants, Black",
+    "price": "4000.00",
+    "description": "Comfortable track pants with iconic Adidas stripes, perfect for sports or casual wear.",
+    "ratings": "4.6",
+    "images": [
+      {
+        "image": "/images/products/pants2.jpg",
+        "_id": {
+          "$oid": "6799b019b79b6988a307e429"
+        }
+      }
+    ],
+    "category": "Pants",
+    "seller": "Adidas",
+    "stock": "30",
+    "__v": 0
+  }
+]

@@ -1,0 +1,91 @@
+/* Home.css */
+.welcome-message {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Main container */
+#products_heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 150px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.home-container {
+    padding-top: 200px; /* Adjust based on navbar height */
+}
+
+/* 
+.navbar .cart{
+    display: block;
+} */
+
+/* Products container */
+#products {
+    margin-top: 50px;
+}
+
+#products .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: space-around;
+}
+
+/* Product card styling */
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.card .btn-block {
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn-block:hover {
+    background-color: #0056b3;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #products_heading {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}

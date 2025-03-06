@@ -1,0 +1,156 @@
+/* ProductDetail.css */
+
+/* General container styling */
+.container-fluid {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+/* Title and header */
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Product ID */
+#product_id {
+    font-size: 1rem;
+    color: #777;
+    font-weight: 400;
+}
+
+/* Product price */
+#product_price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+/* Rating */
+.rating-outer {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.rating-inner {
+    height: 100%;
+    background-color: #ffb400;
+    border-radius: 10px;
+}
+
+/* Stock counter */
+.stockCounter {
+    display: flex;
+    align-items: center;
+}
+
+.stockCounter .btn {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.stockCounter .count {
+    width: 60px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Cart button */
+#cart_btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#cart_btn:disabled {
+    background-color: #cccccc;
+}
+
+#cart_btn:hover {
+    background-color: #0056b3;
+}
+
+/* Stock status */
+#stock_status {
+    font-weight: 600;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+/* Product description */
+h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Seller info */
+#product_seller {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Product image */
+#product_image {
+    text-align: center;
+}
+
+#product_image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.prod{
+    margin-top: 200px;
+}
+
+.row{
+    gap:20px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-lg-5 {
+        margin-top: 20px;
+    }
+
+    .container-fluid {
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+}

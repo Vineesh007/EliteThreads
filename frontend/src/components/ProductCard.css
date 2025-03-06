@@ -1,0 +1,81 @@
+/* Add this in a separate CSS file like ProductCard.css */
+
+/* General styling for the product card */
+.product-card {
+    background-color: #fff;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+/* Hover effect for the card */
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image styling */
+.card-img-top {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+/* Title and link */
+.product-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.2s ease;
+}
+
+.product-link:hover {
+    color: #007bff;
+}
+
+/* Ratings style */
+.rating-outer {
+    display: inline-block;
+    width: 100%;
+}
+
+.rating-inner {
+    width: 0;
+    height: 5px;
+    background-color: #f8b400;
+}
+
+/* Price styling */
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+#view_btn, .add-to-cart-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#view_btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#view_btn:hover {
+    background-color: #0056b3;
+}
+
+.add-to-cart-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #218838;
+}
